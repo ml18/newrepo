@@ -17,5 +17,5 @@ This is sample AWS Jupyter Notebook Server Setup Steps:
 * note: we can use "tmux" to make the connection more stablized if desired (if so, starting it from above step 5 after get into EC2 instance)
 * a diagram of the system briefly illustrated as the following (S3 can be later on added on the AWS side but we are not covering that in class yet):
 * <image src="AWS_system_diagram.jpeg" width=400>
-* from the monthly AWS EC2 cost calculator on their official website, we can get the budget of the costs for at lease 3 months using at least 3 different id of EC2 instance: (t2.micro/cpu=1/mem=1GB/$8.5 t2.medium/cpu=2/mem=4GB/$33.97, t2.xlarge/cpu=4/mem=16GB/$135.86) so total they gave is: $170.83*3(months)=512.49
+* from the monthly AWS EC2 cost calculator on their official website, we can get the budget of the costs for at lease 3 months using at least 3 different id of EC2 instance: (t2.micro/cpu=1/mem=1GB/$8.5 t2.medium/cpu=2/mem=4GB/$33.97, t2.xlarge/cpu=4/mem=16GB/$135.86) so total cost they gave is: $170.83*3(months)=$512.49
  
