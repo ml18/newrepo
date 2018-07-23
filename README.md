@@ -15,3 +15,4 @@ This is sample AWS Jupyter Notebook Server Setup Steps:
  jupyter/datascience-notebook" (we can also put these to .profile as alias j=... for later easy use)-> run "docker ps -a" to get juyper's id (6c43xxxx), port, name...->run "docker logs 6c43" or "docker exec 6c43 jupyter notebook list" to get the jupyter token used in the next step
 * Step 9 (Get Jupyter up and running to write Python or R code): on web URL type in above EC2 public Ip address 54.85.184.98:443-> enter jupyter token given in above step 6's last piece-> Jupyter Notebook pop up on the screen->start to write Python or R code in it
 * note: we can use "tmux" to make the connection more stablized if desired (if so, starting it from above step 5 after get into EC2 instance)
+<image src="AWS_system_diagram.jpeg">
